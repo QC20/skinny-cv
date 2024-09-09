@@ -37,6 +37,22 @@ export class Education {
 }
 
 @ObjectType()
+export class Publikationer {
+  @Field(() => String)
+  school: string;
+
+  @Field(() => String)
+  degree: string;
+
+  @Field(() => String)
+  start: string;
+
+  @Field(() => String)
+  end: string;
+}
+
+
+@ObjectType()
 export class Work {
   @Field(() => String)
   company: string;
@@ -142,6 +158,12 @@ export class Me {
 
   @Field(() => [Work])
   work: Work[];
+
+  @Field(() => [Publications])
+  Publications: Publications[];
+
+  @Field(() => [Publikationer])
+  Publikationer: Publikationer[];
 
   @Field(() => [String])
   skills: string[];

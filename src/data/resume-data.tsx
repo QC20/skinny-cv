@@ -18,7 +18,8 @@ import {
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
-import { Publications } from "@/apollo/type-defs";
+import { Publications, Publikationer } from "@/apollo/type-defs";
+import { School } from "lucide-react";
 
 export const RESUME_DATA = {
   name: "Jonas Kjeldmand Jensen",
@@ -66,6 +67,19 @@ export const RESUME_DATA = {
       end: "2018",
     },
   ],
+  
+  Publikationer: [
+    {
+      school: "bobby",
+      degree: "bobby2",
+      start: "hip",
+      end: "hop",
+
+    }
+  ],
+
+
+
   work: [
     {
       company: "Skatteankestyrelsen",
