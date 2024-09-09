@@ -61,6 +61,30 @@ export class Work {
 }
 
 @ObjectType()
+export class Publications {
+  @Field(() => String)
+  Title: string;
+
+  @Field(() => String)
+  link: string;
+
+  @Field(() => [String])
+  badges: string[];
+
+  @Field(() => String)
+  Resume: string;
+
+  @Field(() => String)
+  year: string;
+
+  @Field(() => String)
+  description: string;
+
+  @Field(() => String)
+  authors: string;
+}
+
+@ObjectType()
 export class Link {
   @Field(() => String)
   label: string;
