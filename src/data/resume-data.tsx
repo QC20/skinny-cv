@@ -26,10 +26,10 @@ export const RESUME_DATA = {
   location: "Copenhagen, Denmark, CET",
   locationLink: "https://www.google.com/maps/place/Copenhagen",
   about:
-    "Detaljeorienteret UX researcher dedikeret til at skabe produkter af høj kvalitet.",
+    "Detaljeorienteret UX researcher dedikeret til at skabe produkter af høj kvalitet",
   summary:
     "Som UX Researcher er jeg specialiseret i at tage digitale produkter fra idé til lancering gennem en dyb forståelse af brugerbehov og adfærd. Jeg trives med at samarbejde med tværfaglige teams og skabe miljøer, hvor alle kan yde deres bedste. I mit arbejde fokuserer jeg på at kombinere kvalitative og kvantitative metoder for at skabe indsigtsfulde løsninger, der forbedrer brugeroplevelsen. Jeg har over 8 års erfaring med user research og produktudvikling, herunder samarbejde med internationale teams.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+  avatarUrl: "https://github.com/QC20/skinny-cv/blob/main/src/images/png/Spot-corrected-fladere%20farver-min.png",
   personalWebsiteUrl: "https://jonaskjeldmand.vercel.app/",
   contact: {
     email: "jkj@di.ku.dk",
