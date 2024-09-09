@@ -71,7 +71,7 @@ export const RESUME_DATA = {
       company: "Skatteankestyrelsen",
       link: "https://skatteankestyrelsen.dk/",
       badges: ["On-site"],
-      title: "IT Udvikler",
+      title: "IT projektleder",
       logo: ConsultlyLogo,
       start: "dec 2022",
       end: null,
@@ -152,6 +152,9 @@ export const RESUME_DATA = {
     "Designværktøjer",
     "Tværfagligt Samarbejde",
     "Kommunikation",
+    "Figma",
+    "Sketch",
+    "Adobe Suite",
   ],
   projects: [
     {
