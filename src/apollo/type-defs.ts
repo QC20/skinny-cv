@@ -30,6 +30,9 @@ export class Education {
   degree: string;
 
   @Field(() => String)
+  description: string;
+
+  @Field(() => String)
   start: string;
 
   @Field(() => String)

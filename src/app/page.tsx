@@ -160,6 +160,30 @@ export default function Page() {
             );
           })}
         </Section>
+        
+        <Section>
+          <h2 className="text-xl font-bold">Publikationer</h2>
+          {RESUME_DATA.Publikationer.map((Publikationer) => {
+            return (
+              <Card key={Publikationer.school}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="font-semibold leading-none">
+                      {Publikationer.school}
+                    </h3>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {Publikationer.start} - {Publikationer.end}
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent className="mt-2 print:text-[12px]">
+                  {Publikationer.degree}
+                </CardContent>
+              </Card>
+            );
+          })}
+
+        </Section>
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
