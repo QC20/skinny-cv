@@ -8,6 +8,7 @@ import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
+import { Referencer } from "@/apollo/type-defs";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
@@ -93,13 +94,13 @@ export default function Page() {
           </Avatar>
         </div>
         <Section>
-          <h2 className="text-xl font-bold">About</h2>
+          <h2 className="text-xl font-bold">Om mig</h2>
           <p className="text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
             {RESUME_DATA.summary}
           </p>
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Work Experience</h2>
+          <h2 className="text-xl font-bold">Erhvervserfaring</h2>
           {RESUME_DATA.work.map((work) => {
             return (
               <Card key={work.company}>
@@ -139,7 +140,7 @@ export default function Page() {
           })}
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Education</h2>
+          <h2 className="text-xl font-bold">Uddannelse</h2>
           {RESUME_DATA.education.map((education) => {
             return (
               <Card key={education.school}>
@@ -148,6 +149,7 @@ export default function Page() {
                     <h3 className="font-semibold leading-none">
                       {education.school}
                     </h3>
+                    
                     <div className="text-sm tabular-nums text-gray-500">
                       {education.start} - {education.end}
                     </div>
@@ -162,22 +164,26 @@ export default function Page() {
         </Section>
         
         <Section>
-          <h2 className="text-xl font-bold">Publikationer</h2>
+          <h2 className="text-xl font-bold">Akademiske Publikationer</h2>
           {RESUME_DATA.Publikationer.map((Publikationer) => {
             return (
-              <Card key={Publikationer.school}>
+              <Card key={Publikationer.title}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="font-semibold leading-none">
-                      {Publikationer.school}
+                      {Publikationer.title}
                     </h3>
+
                     <div className="text-sm tabular-nums text-gray-500">
-                      {Publikationer.start} - {Publikationer.end}
+                      {Publikationer.start}
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent className="mt-2 print:text-[12px]">
-                  {Publikationer.degree}
+                  {Publikationer.author}
+                </CardContent>
+                <CardContent className="mt-2 print:text-[12px] font-bold">
+                  {Publikationer.sig}
                 </CardContent>
               </Card>
             );
@@ -195,6 +201,30 @@ export default function Page() {
               );
             })}
           </div>
+        </Section>
+
+        <Section>
+          <h2 className="text-xl font-bold">Professionelle Referencer</h2>
+          {RESUME_DATA.Referencer.map((Referencer) => {
+            return (
+              <Card key={Referencer.name}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="font-semibold leading-none">
+                      {Referencer.name}
+                    </h3>
+                    
+                  </div>
+                </CardHeader>
+                <CardContent className="mt-2 print:text-[12px]">
+                  {Referencer.company}
+                </CardContent>
+                <CardContent className="text-sm tabular-nums!text-[10px] tabular-nums">
+                  {Referencer.kontakt}
+                </CardContent>
+              </Card>
+            );
+          })}
         </Section>
 
         <Section className="print-force-new-page scroll-mb-16">

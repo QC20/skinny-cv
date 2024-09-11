@@ -18,19 +18,21 @@ import {
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
-import { Publications, Publikationer } from "@/apollo/type-defs";
+import { Publikationer, Referencer } from "@/apollo/type-defs";
 import { School } from "lucide-react";
+import { title } from "process";
+import { Description } from "@radix-ui/react-dialog";
 
 export const RESUME_DATA = {
   name: "Jonas Kjeldmand Jensen",
   initials: "JKJ",
-  location: "Copenhagen, Denmark, CET",
+  location: "Copenhagen, Denmark",
   locationLink: "https://www.google.com/maps/place/Copenhagen",
   about:
     "Detaljeorienteret UX researcher dedikeret til at skabe produkter af høj kvalitet",
   summary:
     "Som UX Researcher er jeg specialiseret i at tage digitale produkter fra idé til lancering gennem en dyb forståelse af brugerbehov og adfærd. Jeg trives med at samarbejde med tværfaglige teams og skabe miljøer, hvor alle kan yde deres bedste. I mit arbejde fokuserer jeg på at kombinere kvalitative og kvantitative metoder for at skabe indsigtsfulde løsninger, der forbedrer brugeroplevelsen. Jeg har over 8 års erfaring med user research og produktudvikling, herunder samarbejde med internationale teams.",
-  avatarUrl: "https://github.com/QC20/skinny-cv/blob/main/src/images/png/Spot-corrected-fladere%20farver-min.png",
+  avatarUrl: "https://github.com/user-attachments/assets/97cfbf9f-9add-46f2-9d0d-d2058534bd7e",
   personalWebsiteUrl: "https://jonaskjeldmand.vercel.app/",
   contact: {
     email: "jkj@di.ku.dk",
@@ -71,14 +73,27 @@ export const RESUME_DATA = {
   
   Publikationer: [
     {
-      school: "bobby",
-      degree: "bobby2",
-      start: "hip",
-      end: "hop",
+      title: "Exploring Audio Icons for Content-Based Navigation in Voice User Interfaces",
+      author: "Jonas Kjeldmand Jensen & Daniel Ashbrook",
+      start: "2023",
+      sig: "ACM CUI",
+
+    },
+    {
+      title: "Into Scandinavia: When Online Fatherhood Reflects Societal Infrastructures",
+      author: "Jonas Kjeldmand Jensen, Tawfiq Ammari & Pernille Bjørn",
+      start: "2019",
+      sig: "ACM GROUP",
+
+    },
+    {
+      title: "Barriers to End-User Designers of Augmented Fabrication",
+      author: "Chandan Mahapatra, Jonas Kjeldmand Jensen & Michael McQuaid 40",
+      start: "2018",
+      sig: "ACM CHI",
 
     }
   ],
-
 
 
   work: [
@@ -118,7 +133,7 @@ export const RESUME_DATA = {
     {
       company: "Yngre Læger",
       link: "https://laeger.dk/foreninger/yngre-laeger",
-      badges: [On-site],
+      badges: ["On-site"],
       title: "UX/UI Designer",
       logo: JojoMobileLogo,
       start: "jan 2017",
@@ -129,7 +144,7 @@ export const RESUME_DATA = {
     {
       company: "Human-Centred Computing Research Section",
       link: "https://di.ku.dk/english/research/human-centred-computing/",
-      badges: [On-site],
+      badges: ["On-site"],
       title: "HCI BA Researcher",
       logo: NSNLogo,
       start: "may 2018",
@@ -139,7 +154,7 @@ export const RESUME_DATA = {
     {
       company: "DIS, Study Abroad in Scandinavia",
       link: "https://dis.dk/",
-      badges: [On-site],
+      badges: ["On-site"],
       title: "Student Video \& Graphic Designer",
       logo: NSNLogo,
       start: "jan 2015",
@@ -148,14 +163,7 @@ export const RESUME_DATA = {
     },
   ],
 
-    Publications:[
-      {
-        title: "Exploring Audio Icons for Content-Based Navigation in Voice User Interfaces",
-        link: "https://doi.org/10.1145/3571884.3604302",
-        authors: "Jonas Kjeldmand Jensen & Daniel Ashbrook",
-        year: "ACM CUI '23",
-      }
-  ],
+
 
   skills: [
     "Designtænkning",
@@ -170,10 +178,25 @@ export const RESUME_DATA = {
     "Figma",
     "Sketch",
     "Adobe Suite",
+    "Web Development",
+    "User Research",
   ],
 
 
+  Referencer: [
+    {
+      name: "Pernille Bjørn Rasmussen",
+      company: "Professor og viceinstitutleder for forskning, Københavns Universitet",
+      kontakt: "Kontaktoplysninger udleveres efter anmodning"
 
+    },
+    {
+      name: "Co-Founder & CTO, Odeno A/S",
+      company: "Bertin Guldborg Hansen",
+      kontakt: "Kontaktoplysninger udleveres efter anmodning"
+
+    },
+  ],
 
 
 
