@@ -201,7 +201,7 @@ export const RESUME_DATA = {
 
   FrivilligtArbejde: [
     {
-      name: "Præsentér seneste akademiske artikel ved konference",
+      name: "Præsentation af seneste akademiske artikel ved konference",
       company: "The ACM CUI Conference on Conversational User Interfaces (CUI), 2023.  ",
       start: "2023",
     },
@@ -212,7 +212,7 @@ export const RESUME_DATA = {
     },
     {
       name: "Eventorganisator & Vært hos Byens Radio (lokal pirat FM-radiostation)",
-      company: "Organiserede events og DJ'ede ved radioprogrammer med over 5000 lokale FM-lyttere",
+      company: "Organiserede events og DJ'ede ved radioprogrammer med over 5000 lokale FM-lyttere.",
       start: "2017",
     },
   ],

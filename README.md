@@ -9,7 +9,7 @@
 - Fix the svg symbol for portfolio website
 - Insert portfolio website with only text in print version
 - Insert new updated photo of me
-- Insert Voluteer work
+- make skills bubbles show on print as well
 
 
 Simple web app that renders minimalist CV with print-friendly layout.

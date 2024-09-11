@@ -18,6 +18,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
+      <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-4">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
@@ -98,6 +99,20 @@ export default function Page() {
             {RESUME_DATA.summary}
           </p>
         </Section>
+
+        <Section>
+          <h2 className="text-xl font-bold">Skills</h2>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.skills.map((skill) => {
+              return (
+                <Badge className="print:text-[10px]" key={skill}>
+                  {skill}
+                </Badge>
+              );
+            })}
+          </div>
+        </Section>
+
         <Section>
           <h2 className="text-xl font-bold">Erhvervserfaring</h2>
           {RESUME_DATA.work.map((work) => {
@@ -138,8 +153,9 @@ export default function Page() {
             );
           })}
         </Section>
+
         <Section>
-          <h2 className="text-xl font-bold">Uddannelse</h2>
+          <h2 className="text-xl font-bold">Formel uddannelse</h2>
           {RESUME_DATA.education.map((education) => {
             return (
               <Card key={education.school}>
@@ -191,18 +207,7 @@ export default function Page() {
           })}
 
         </Section>
-        <Section>
-          <h2 className="text-xl font-bold">Skills</h2>
-          <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.skills.map((skill) => {
-              return (
-                <Badge className="print:text-[10px]" key={skill}>
-                  {skill}
-                </Badge>
-              );
-            })}
-          </div>
-        </Section>
+
 
         <Section>
           <h2 className="text-xl font-bold">Frivilligt arbejde og konferencer</h2>
@@ -253,6 +258,12 @@ export default function Page() {
 
 
         
+        <Section className="print-force-new-page scroll-mb-16">
+          <h2 className="text-xl font-bold">Projects</h2>
+          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+          </div>
+        </Section>
+      </section>
 
       <CommandMenu
         links={[
