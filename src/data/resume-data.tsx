@@ -31,7 +31,7 @@ export const RESUME_DATA = {
   about:
     "Detaljeorienteret UX researcher dedikeret til at skabe produkter af høj kvalitet",
   summary:
-    "Som UX Researcher er jeg specialiseret i at tage digitale produkter fra idé til lancering gennem en dyb forståelse af brugerbehov og adfærd. Jeg trives med at samarbejde med tværfaglige teams og skabe miljøer, hvor alle kan yde deres bedste. I mit arbejde fokuserer jeg på at kombinere kvalitative og kvantitative metoder for at skabe indsigtsfulde løsninger, der forbedrer brugeroplevelsen. Jeg har over 8 års erfaring med user research og produktudvikling, herunder samarbejde med internationale teams.",
+    "Som UX Researcher er jeg specialiseret i at tage digitale produkter fra idé til lancering gennem en dyb forståelse af brugerbehov og adfærd. Jeg trives med at samarbejde med tværfaglige teams og skabe miljøer, hvor alle kan yde deres bedste. I mit arbejde fokuserer jeg på at kombinere kvalitative og kvantitative metoder for at skabe indsigtsfulde løsninger, der forbedrer brugeroplevelsen.",
   avatarUrl: "https://github.com/user-attachments/assets/97cfbf9f-9add-46f2-9d0d-d2058534bd7e",
   personalWebsiteUrl: "https://jonaskjeldmand.vercel.app/",
   contact: {
@@ -57,15 +57,16 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Københavns Universitet",
-      degree: "Cand.Scient. IT & Kognition",
-      description: "skriv noget tekst her",
+      school: "Cand.Scient. IT & Kognition",
+      degree: "Københavns Universitet",
+      description: "Jeg har specialiseret mig i at kombinere avanceret teknologi med dyb indsigt i menneskelig kognition. Jeg har udviklet innovative teknologier, der efterligner menneskets kognitive processer inden for sprog, visuel genkendelse og kunstig intelligens.",
       start: "2019",
       end: "2022",
     },
     {
-      school: "Københavns Universitet",
-      degree: "B.A. Kommunikation & IT",
+      school: "B.A. Kommunikation & IT",
+      degree: "Københavns Universitet",
+      description: "Uddannelsen kombinerer tekniske færdigheder med dyb forståelse af, hvordan IT påvirker brugere og organisationer, og gav mig et solidt grundlag for at arbejde med digital innovation og brugercentreret design.",
       start: "2014",
       end: "2018",
     },
@@ -88,7 +89,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Barriers to End-User Designers of Augmented Fabrication",
-      author: "Chandan Mahapatra, Jonas Kjeldmand Jensen & Michael McQuaid 40",
+      author: "Chandan Mahapatra, Jonas Kjeldmand Jensen, Michael McQuaid & Daniel Ashbrook",
       start: "2018",
       sig: "ACM CHI",
 
@@ -106,7 +107,7 @@ export const RESUME_DATA = {
       start: "dec 2022",
       end: null,
       description:
-        "Arbejder tæt sammen med tværfaglige teams for at udvikle brugercentrerede digitale løsninger. Jeg var ansvarlig for at identificere brugernes behov gennem løbende dialog med interessenter og omsætte dem til effektive teknologiske løsninger. Med fokus på at forbedre brugeroplevelsen bidrog jeg til at optimere og automatisere processer, hvilket sikrede en mere intuitiv og effektiv digital brugerrejse.",
+        "Arbejder tæt sammen med tværfaglige teams for at udvikle brugercentrerede digitale løsninger. Jeg var ansvarlig for at identificere brugernes behov gennem løbende dialog med interessenter og omsætte dem til effektive teknologiske løsninger. Med fokus på at forbedre brugeroplevelsen bidrager jeg til at optimere og automatisere processer.",
     },
     {
       company: "Odeno",
@@ -148,7 +149,7 @@ export const RESUME_DATA = {
       title: "HCI BA Researcher",
       logo: NSNLogo,
       start: "may 2018",
-      end: "nov 2012",
+      end: "nov 2020",
       description: "Forfattede og medforfattede to artikler publiceret i den anerkendte CHI-konference, bidragende til førende forskning inden for brugercentreret design menneske-computer interaktion.",
     },
     {
@@ -191,10 +192,28 @@ export const RESUME_DATA = {
 
     },
     {
-      name: "Co-Founder & CTO, Odeno A/S",
-      company: "Bertin Guldborg Hansen",
+      name: "Bertin Guldborg Hansen",
+      company: "Co-Founder & CTO, Odeno A/S",
       kontakt: "Kontaktoplysninger udleveres efter anmodning"
 
+    },
+  ],
+
+  FrivilligtArbejde: [
+    {
+      name: "Præsentér seneste akademiske artikel ved konference",
+      company: "The ACM CUI Conference on Conversational User Interfaces (CUI), 2023.  ",
+      start: "2023",
+    },
+    {
+      name: "Frivillig Coding Pirates underviser",
+      company: "Hjalp ungerne med at lære at programmere med sensorer, Arduino og C++.  ",
+      start: "2022",
+    },
+    {
+      name: "Eventorganisator & Vært hos Byens Radio (lokal pirat FM-radiostation)",
+      company: "Organiserede events og DJ'ede ved radioprogrammer med over 5000 lokale FM-lyttere",
+      start: "2017",
     },
   ],
 

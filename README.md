@@ -2,6 +2,16 @@
 
 # Minimalist CV [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FBartoszJarocki%2Fcv)
 
+
+*Nice to have*
+- put skills under jobs
+- Make links on publications (look at how its done with jobs)
+- Fix the svg symbol for portfolio website
+- Insert portfolio website with only text in print version
+- Insert new updated photo of me
+- Insert Voluteer work
+
+
 Simple web app that renders minimalist CV with print-friendly layout.
 
 Built with Next.js and shadcn/ui, deployed on Vercel.

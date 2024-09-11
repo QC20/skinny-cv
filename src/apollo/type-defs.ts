@@ -22,7 +22,7 @@ export class Contact {
 }
 
 @ObjectType()
-export class Education {
+export class education {
   @Field(() => String)
   school: string;
 
@@ -75,6 +75,23 @@ export class Referencer {
   kontakt: string;
 }
 
+@ObjectType()
+export class FrivilligtArbejde {
+  @Field(() => String)
+  name: string;
+
+  @Field(() => String)
+  company: string;
+
+  @Field(() => String)
+  start: string;
+
+  @Field(() => String)
+  end: string;
+
+  @Field(() => String)
+  kontakt: string;
+}
 
 
 
@@ -156,15 +173,17 @@ export class Me {
   @Field(() => Contact)
   contact: Contact;
 
-  @Field(() => [Education])
-  education: Education[];
+  @Field(() => [education])
+  education: education[];
 
   @Field(() => [Work])
-  work: Work[];
-
+  work: Work[]
 
   @Field(() => [Publikationer])
   Publikationer: Publikationer[];
+  
+  @Field(() => [FrivilligtArbejde])
+  FrivilligtArbejde: FrivilligtArbejde[];
 
   @Field(() => [Referencer])
   Referencer: Referencer[];
