@@ -22,6 +22,7 @@ import { Publikationer, Referencer } from "@/apollo/type-defs";
 import { School } from "lucide-react";
 import { title } from "process";
 import { Description } from "@radix-ui/react-dialog";
+import { link } from "fs";
 
 export const RESUME_DATA = {
   name: "Jonas Kjeldmand Jensen",
@@ -29,10 +30,10 @@ export const RESUME_DATA = {
   location: "Copenhagen, Denmark",
   locationLink: "https://www.google.com/maps/place/Copenhagen",
   about:
-    "Detaljeorienteret UX researcher dedikeret til at skabe produkter af høj kvalitet",
+    "Detaljeorienteret UX researcher og produktudvikler dedikeret til at skabe produkter af høj kvalitet",
   summary:
     "Som UX Researcher er jeg specialiseret i at tage digitale produkter fra idé til lancering gennem en dyb forståelse af brugerbehov og adfærd. Jeg trives med at samarbejde med tværfaglige teams og skabe miljøer, hvor alle kan yde deres bedste. I mit arbejde fokuserer jeg på at kombinere kvalitative og kvantitative metoder for at skabe indsigtsfulde løsninger, der forbedrer brugeroplevelsen.",
-  avatarUrl: "https://github.com/user-attachments/assets/540f53fd-f101-4041-a15b-ffaa6884dec7",
+  avatarUrl: "https://github.com/user-attachments/assets/3e386505-d55a-46f7-ac1a-fe8a42183225",
   personalWebsiteUrl: "https://jonaskjeldmand.vercel.app/about",
   contact: {
     email: "jkj@di.ku.dk",
@@ -77,21 +78,24 @@ export const RESUME_DATA = {
       title: "Exploring Audio Icons for Content-Based Navigation in Voice User Interfaces",
       author: "Jonas Kjeldmand Jensen & Daniel Ashbrook",
       start: "2023",
-      sig: "ACM CUI",
+      sig: "Klik for at se artiklen - publiseret i ACM CUI",
+      link: "https://doi.org/10.1145/3571884.3604302",
 
     },
     {
       title: "Into Scandinavia: When Online Fatherhood Reflects Societal Infrastructures",
       author: "Jonas Kjeldmand Jensen, Tawfiq Ammari & Pernille Bjørn",
       start: "2019",
-      sig: "ACM GROUP",
+      sig: "Klik for at se artiklen - publiseret i ACM GROUP",
+      link: "https://doi.org/10.1145/3361112",
 
     },
     {
       title: "Barriers to End-User Designers of Augmented Fabrication",
       author: "Chandan Mahapatra, Jonas Kjeldmand Jensen, Michael McQuaid & Daniel Ashbrook",
       start: "2018",
-      sig: "ACM CHI",
+      sig: "Klik for at se artiklen - publiseret i ACM CHI",
+      link: "https://doi.org/10.1145/3290605.3300613",
 
     }
   ],
@@ -173,6 +177,7 @@ export const RESUME_DATA = {
     "Agil og iterativ Metodik",
     "Kvalitative og kvantitative forskningsmetoder",
     "Dataanslyse",
+    "Produktudvikling",
     "Designværktøjer",
     "Tværfagligt Samarbejde",
     "Kommunikation",
@@ -181,6 +186,8 @@ export const RESUME_DATA = {
     "Adobe Suite",
     "Web Development",
     "User Research",
+    "Co-Design",
+    "Usability Testing",
   ],
 
 

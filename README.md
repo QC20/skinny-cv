@@ -4,12 +4,10 @@
 
 
 *Nice to have*
-- put skills under jobs
-- Make links on publications (look at how its done with jobs)
 - Fix the svg symbol for portfolio website
-- Insert portfolio website with only text in print version
-- Insert new updated photo of me
 - make skills bubbles show on print as well
+- put little svg next to email phone etc in the print version
+- 
 
 
 Simple web app that renders minimalist CV with print-friendly layout.

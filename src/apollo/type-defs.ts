@@ -55,6 +55,9 @@ export class Publikationer {
 
   @Field(() => String)
   sig: string;
+
+  @Field(() => String)
+  link: string;
 }
 
 @ObjectType()
