@@ -32,8 +32,8 @@ export const RESUME_DATA = {
     "Detaljeorienteret UX researcher dedikeret til at skabe produkter af høj kvalitet",
   summary:
     "Som UX Researcher er jeg specialiseret i at tage digitale produkter fra idé til lancering gennem en dyb forståelse af brugerbehov og adfærd. Jeg trives med at samarbejde med tværfaglige teams og skabe miljøer, hvor alle kan yde deres bedste. I mit arbejde fokuserer jeg på at kombinere kvalitative og kvantitative metoder for at skabe indsigtsfulde løsninger, der forbedrer brugeroplevelsen.",
-  avatarUrl: "https://github.com/user-attachments/assets/97cfbf9f-9add-46f2-9d0d-d2058534bd7e",
-  personalWebsiteUrl: "https://jonaskjeldmand.vercel.app/",
+  avatarUrl: "https://github.com/user-attachments/assets/540f53fd-f101-4041-a15b-ffaa6884dec7",
+  personalWebsiteUrl: "https://jonaskjeldmand.vercel.app/about",
   contact: {
     email: "jkj@di.ku.dk",
     tel: "+45 20479628",
@@ -50,7 +50,7 @@ export const RESUME_DATA = {
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://jonaskjeldmand.vercel.app/about",
         icon: XIcon,
       },
     ],
