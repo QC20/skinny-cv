@@ -138,7 +138,7 @@ export default function Page() {
                       </span>
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
-                      {work.start} - {work.end ?? "Present"}
+                      {work.start} - {work.end ?? "Nu"}
                     </div>
                   </div>
 
@@ -199,7 +199,7 @@ export default function Page() {
                 <CardContent className="text-[10px] tabular-nums leading-tight print:text-[10px] print:leading-tight">
                   {Publikationer.author}
                 </CardContent>
-                <CardContent className="mt-2 print:text-[12px] font-bold">
+                <CardContent className="mt-2 tabular-nums leading-tight print:text-[12px] font-bold print:leading-tight">
                   {Publikationer.sig}
                 </CardContent>
               </Card>

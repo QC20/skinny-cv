@@ -31,7 +31,7 @@ export const RESUME_DATA = {
   about:
     "Detaljeorienteret UX researcher dedikeret til at skabe produkter af høj kvalitet",
   summary:
-    "Som UX Researcher er jeg specialiseret i at tage digitale produkter fra idé til lancering gennem en dyb forståelse af brugerbehov og adfærd. Jeg trives med at samarbejde med tværfaglige teams og skabe miljøer, hvor alle kan yde deres bedste. I mit arbejde fokuserer jeg på at kombinere kvalitative og kvantitative metoder for at skabe indsigtsfulde løsninger, der forbedrer brugeroplevelsen.",
+    "Som UX Researcher er jeg specialiseret i at drive product discovery og implementere brugerindsigt i alle faser af produktudvikling. Jeg trives i tværfaglige teams og i tæt samarbejde med designere, udviklere og produktudviklere for at sikre, at brugerindsigter integreres i alle faser af udviklingen af digitale produkter. I mit arbejde fokuserer jeg på at kombinere kvalitative og kvantitative metoder for at skabe indsigtsfulde løsninger, der forbedrer brugeroplevelsen.",
   avatarUrl: "https://github.com/user-attachments/assets/540f53fd-f101-4041-a15b-ffaa6884dec7",
   personalWebsiteUrl: "https://jonaskjeldmand.vercel.app/about",
   contact: {
@@ -49,7 +49,7 @@ export const RESUME_DATA = {
         icon: LinkedInIcon,
       },
       {
-        name: "X",
+        name: "Min portfolio",
         url: "https://jonaskjeldmand.vercel.app/about",
         icon: XIcon,
       },
@@ -59,14 +59,14 @@ export const RESUME_DATA = {
     {
       school: "Cand.Scient. IT & Kognition",
       degree: "Københavns Universitet",
-      description: "Jeg har specialiseret mig i at kombinere avanceret teknologi med dyb indsigt i menneskelig kognition. Jeg har udviklet innovative teknologier, der efterligner menneskets kognitive processer inden for sprog, visuel genkendelse og kunstig intelligens.",
+      description: "Specialiseret i at kombinere avanceret teknologi med dyb indsigt i menneskelig kognition, med udvikling af innovative teknologier, der efterligner menneskets kognitive processer inden for sprog, visuel genkendelse og kunstig intelligens.",
       start: "2019",
       end: "2022",
     },
     {
       school: "B.A. Kommunikation & IT",
       degree: "Københavns Universitet",
-      description: "Uddannelsen kombinerer tekniske færdigheder med dyb forståelse af, hvordan IT påvirker brugere og organisationer, og gav mig et solidt grundlag for at arbejde med digital innovation og brugercentreret design.",
+      description: "Opnåede et solidt fundament inden for digital innovation og brugercentreret design, der kombinerer tekniske færdigheder med en dyb forståelse af, hvordan IT påvirker brugere og organisationer.",
       start: "2014",
       end: "2018",
     },
@@ -107,18 +107,18 @@ export const RESUME_DATA = {
       start: "dec 2022",
       end: null,
       description:
-        "Arbejder tæt sammen med tværfaglige teams for at udvikle brugercentrerede digitale løsninger. Jeg var ansvarlig for at identificere brugernes behov gennem løbende dialog med interessenter og omsætte dem til effektive teknologiske løsninger. Med fokus på at forbedre brugeroplevelsen bidrager jeg til at optimere og automatisere processer.",
+        "Arbejder tæt sammen med tværfaglige teams for at udvikle brugercentrerede digitale løsninger. Jeg er ansvarlig for at identificere brugernes behov gennem løbende dialog med interessenter og omsætte dem til effektive digitale løsninger. Med fokus på at forbedre brugeroplevelsen bidrager jeg til at optimere og automatisere processer.",
     },
     {
       company: "Odeno",
       link: "https://www.linkedin.com/company/odeno/",
       badges: ["On-site"],
-      title: "UX Researcher & Developer",
+      title: "UX Researcher & Frontend Udvikler",
       logo: ParabolLogo,
       start: "jun 2022",
       end: "dec 2022",
       description:
-        "Ledte agile udviklingsprocesser og gennemførte usability tests for at optimere brugeroplevelsen. Vægtede og prioriterede produktmål i samarbejde med tværfaglige teams, og anvendte data og brugerindsigt til løbende forbedringer af platformen.",
+        "Ledte agile udviklingsprocesser, optimerede platformen gennem usability tests og dataanalyse, og anvendte brugerindsigt til at forbedre produktmål og brugeroplevelse.",
     },
     {
       company: "Human-Centred Computing Research Section",
@@ -129,7 +129,7 @@ export const RESUME_DATA = {
       start: "dec 2020",
       end: "jun 2022",
       description:
-        "Gennemførte brugerundersøgelser og analyserede data for at forstå brugerbehov og adfærd. Anvendte indsigt fra research til at informere designbeslutninger og forbedre brugeroplevelsen i samarbejde med tværfaglige teams.",
+        "Gennemførte brugerundersøgelser og analyserede data for at forstå brugerbehov og adfærd. Anvendte indsigt fra research til at informere designbeslutninger og optimere interaktive systemer i akademisk interdisciplinære samarbejder.",
     },
     {
       company: "Yngre Læger",
@@ -137,10 +137,10 @@ export const RESUME_DATA = {
       badges: ["On-site"],
       title: "UX/UI Designer",
       logo: JojoMobileLogo,
-      start: "jan 2017",
+      start: "nov 2018",
       end: "nov 2020",
       description:
-        "Designede og optimerede brugeroplevelser ved at analysere brugerfeedback og gennemføre usability-tests. Arbejdede tæt sammen med tværfaglige teams for at implementere brugercentrerede løsninger og forbedre digitale produkter baseret på brugerindsigt.",
+        "Designede og optimerede brugeroplevelser ved at analysere feedback og gennemføre usability-tests, samarbejdede med forskellige faggrupper for at implementere brugercentrerede løsninger og forbedre digitale og fysiske produkter.",
     },
     {
       company: "Human-Centred Computing Research Section",
@@ -148,28 +148,27 @@ export const RESUME_DATA = {
       badges: ["On-site"],
       title: "HCI BA Researcher",
       logo: NSNLogo,
-      start: "may 2018",
-      end: "nov 2020",
-      description: "Forfattede og medforfattede to artikler publiceret i den anerkendte CHI-konference, bidragende til førende forskning inden for brugercentreret design menneske-computer interaktion.",
+      start: "maj 2018",
+      end: "nov 2018",
+      description: "Forfattede og medforfattede to artikler publiceret i den anerkendte CHI-konference, bidragende til førende forskning inden for brugercentreret design og menneske-computer interaktion.",
     },
     {
       company: "DIS, Study Abroad in Scandinavia",
       link: "https://dis.dk/",
       badges: ["On-site"],
-      title: "Student Video \& Graphic Designer",
+      title: "Video \& grafisk designer",
       logo: NSNLogo,
       start: "jan 2015",
       end: "aug 2017",
-      description: "Udvikle wireframes og prototyper, forbedret design gennem evalueringer, og skabt videoindhold til studerende.",
+      description: "Assisterede med wireframes og prototyper, gennemførte designanmeldelser, og filmede videoer til studerende",
     },
   ],
-
-
 
   skills: [
     "Designtænkning",
     "Prototyping",
     "Brugerfeedback",
+    "Empati",
     "Agil og iterativ Metodik",
     "Kvalitative og kvantitative forskningsmetoder",
     "Dataanslyse",
@@ -181,6 +180,12 @@ export const RESUME_DATA = {
     "Adobe Suite",
     "Web Development",
     "User Research",
+    "Feltstudier",
+    "Stakeholder management",
+    "Interaktionsdesign",
+    "Service Design",
+    "Konceptudvikling",
+
   ],
 
 
