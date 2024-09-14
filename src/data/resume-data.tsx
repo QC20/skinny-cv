@@ -186,7 +186,7 @@ export const RESUME_DATA = {
     "Brugerfeedback",
     "Empati",
     "Agil og iterativ Metodik",
-    "Kvalitative og kvantitative forskningsmetoder",
+    "Kvalitative og kvantitative metoder",
     "Dataanslyse",
     "Produktudvikling",
     "Designværktøjer",
