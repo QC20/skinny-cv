@@ -174,6 +174,15 @@ export default function Page() {
               <CardContent className="mt-2 text-xs print:text-[10px]">
                 {work.description}
               </CardContent>
+              <CardContent className="mt-2">
+                <div className="flex flex-wrap gap-1">
+                  {work.skills.map((skill) => (
+                    <Badge key={skill} className="badge-print-override">
+                      {skill}
+                    </Badge>
+                  ))}
+                </div>
+              </CardContent>
             </Card>
           ))}
         </Section>
@@ -198,10 +207,20 @@ export default function Page() {
               <CardContent className="mt-2 text-xs print:text-[9px]">
                 {education.description}
               </CardContent>
+              <CardContent className="mt-2">
+                <div className="flex flex-wrap gap-1">
+                  {education.skills.map((skill) => (
+                    <Badge key={skill} className="badge-print-override">
+                      {skill}
+                    </Badge>
+                  ))}
+                </div>
+              </CardContent>
             </Card>
           ))}
         </Section>
         
+      
         <Section>
           <h2 className="text-xl font-bold">Akademiske Publikationer</h2>
           {RESUME_DATA.Publikationer.map((Publikationer) => (
@@ -219,7 +238,7 @@ export default function Page() {
               <CardContent className="text-[10px] tabular-nums leading-tight print:text-[10px] print:leading-tight">
                 {Publikationer.author}
               </CardContent>
-              <CardContent className="mt-2 print:text-[12px] font-bold">
+              <CardContent className="mt-1 tabular-nums leading-tight print:text-[12px] print:leading-tight font-bold">
                 <a href={Publikationer.link} className="hover:underline">
                   {Publikationer.sig}
                 </a>
