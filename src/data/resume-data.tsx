@@ -26,7 +26,7 @@ import { link } from "fs";
 
 export const RESUME_DATA = {
   name: "Jonas Kjeldmand Jensen",
-  initials: "JKJ",
+  initials: "Loading image ...",
   location: "Copenhagen, Denmark",
   locationLink: "https://www.google.com/maps/place/Copenhagen",
   about:
