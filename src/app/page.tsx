@@ -4,7 +4,8 @@ import { Badge } from "@/components/ui/badge";
 import { CommandMenu } from "@/components/command-menu";
 import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
-import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
+import { GlobeIcon, MailIcon, PhoneIcon, WebcamIcon } from "lucide-react";
+import { XIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
@@ -39,7 +40,7 @@ export default function Page() {
             <div className="hidden print:flex print:flex-col gap-y-2 font-mono text-sm text-muted-foreground">
               {RESUME_DATA.personalWebsiteUrl ? (
                 <div className="flex items-center gap-x-1">
-                  <GlobeIcon className="size-4" />
+                  <WebcamIcon className="size-4" />
                   <a
                     href={RESUME_DATA.personalWebsiteUrl}
                     target="_blank"
@@ -164,7 +165,7 @@ export default function Page() {
                     </span>
                   </h3>
                   <div className="text-sm tabular-nums text-gray-500">
-                    {work.start} - {work.end ?? "Present"}
+                    {work.start} - {work.end ?? "Nu"}
                   </div>
                 </div>
                 <h4 className="font-mono text-sm leading-none print:text-[12px]">
@@ -294,7 +295,7 @@ export default function Page() {
         links={[
           {
             url: RESUME_DATA.personalWebsiteUrl,
-            title: "Personal Website",
+            title: "Portfolio hjemmeside",
           },
           ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
             url: socialMediaLink.url,

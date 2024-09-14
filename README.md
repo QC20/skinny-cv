@@ -5,7 +5,7 @@
 
 
 *Nice to have*
-- Fix the svg symbol for portfolio website
+
 - make skills bubbles show on print as well
 - put little svg next to email phone etc in the print version
 - 

@@ -50,8 +50,8 @@ export const RESUME_DATA = {
         icon: LinkedInIcon,
       },
       {
-        name: "X",
-        url: "https://jonaskjeldmand.vercel.app/about",
+        name: "Min hjemmeside",
+        url: "https://https://jonaskjeldmand.vercel.app/",
         icon: XIcon,
       },
     ],
@@ -61,7 +61,7 @@ export const RESUME_DATA = {
       school: "Cand.Scient. IT & Kognition",
       degree: "Københavns Universitet",
       description: "Specialiseret i at kombinere avanceret teknologi med dyb indsigt i menneskelig kognition, med udvikling af innovative teknologier, der efterligner menneskets kognitive processer inden for sprog, visuel genkendelse og kunstig intelligens.",
-      start: "2019",
+      start: "2020",
       end: "2022",
       skills: ["Kognitiv Videnskab", "Kunstig Intelligens", "Sprogteknologi", "Interaktionsdesign"],
     },
@@ -107,7 +107,7 @@ export const RESUME_DATA = {
     {
       company: "Skatteankestyrelsen",
       link: "https://skatteankestyrelsen.dk/",
-      badges: ["On-site"],
+      badges: ["Fultid"],
       title: "Brugercentreret Digital Udvikler",
       logo: ConsultlyLogo,
       start: "dec 2022",
@@ -119,7 +119,7 @@ export const RESUME_DATA = {
     {
       company: "Odeno",
       link: "https://www.linkedin.com/company/odeno/",
-      badges: ["On-site"],
+      badges: ["Fultid"],
       title: "UX Researcher & Frontend Udvikler",
       logo: ParabolLogo,
       start: "jun 2022",
@@ -131,7 +131,7 @@ export const RESUME_DATA = {
     {
       company: "Human-Centred Computing Research Section",
       link: "https://di.ku.dk/english/research/human-centred-computing/",
-      badges: ["On-site"],
+      badges: ["Deltid"],
       title: "HCI MA Forskningsassistent",
       logo: ClevertechLogo,
       start: "dec 2020",
@@ -143,7 +143,7 @@ export const RESUME_DATA = {
     {
       company: "Yngre Læger",
       link: "https://laeger.dk/foreninger/yngre-laeger",
-      badges: ["On-site"],
+      badges: ["Fultid"],
       title: "UX/UI Designer",
       logo: JojoMobileLogo,
       start: "nov 2018",
@@ -155,7 +155,7 @@ export const RESUME_DATA = {
     {
       company: "Human-Centred Computing Research Section",
       link: "https://di.ku.dk/english/research/human-centred-computing/",
-      badges: ["On-site"],
+      badges: ["Fultid"],
       title: "HCI BA Forskningsassistent",
       logo: NSNLogo,
       start: "may 2018",
@@ -166,7 +166,7 @@ export const RESUME_DATA = {
     {
       company: "DIS, Study Abroad in Scandinavia",
       link: "https://dis.dk/",
-      badges: ["On-site"],
+      badges: ["Deltid"],
       title: "Student Video \& Graphic Designer",
       logo: NSNLogo,
       start: "jan 2015",
@@ -221,9 +221,9 @@ export const RESUME_DATA = {
 
   FrivilligtArbejde: [
     {
-      name: "Præsentation af seneste akademiske artikel ved konference",
-      company: "The ACM CUI Conference on Conversational User Interfaces (CUI), 2023.  ",
-      start: "2023",
+      name: "Aktivt medlem af Hacker-fællesskabet Labitat",
+      company: "Deltager i udvikling af tech projekter og innovation, samt bidrager til workshops og teknologiske events i fællesskabet.",
+      start: "Nu",
     },
     {
       name: "Frivillig Coding Pirates underviser",
