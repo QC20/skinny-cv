@@ -27,10 +27,10 @@ import { link } from "fs";
 export const RESUME_DATA = {
   name: "Jonas Kjeldmand Jensen",
   initials: "Loading image ...",
-  location: "Copenhagen, Denmark",
+  location: "København, Danmark",
   locationLink: "https://www.google.com/maps/place/Copenhagen",
   about:
-    "Detaljeorienteret UX researcher og produktudvikler dedikeret til at skabe produkter af høj kvalitet",
+    "Detaljeorienteret UX researcher og produktudvikler med 5+ års erfaring, dedikeret til at skabe produkter af høj kvalitet",
   summary:
     "Som UX Researcher er jeg specialiseret i at tage digitale produkter fra idé til lancering gennem en dyb forståelse af brugerbehov og adfærd. Jeg trives i samarbejdet og overlappet med andre faggrupper, hvor alle kan yde deres bedste. I mit arbejde fokuserer jeg på at kombinere kvalitative og kvantitative metoder for at skabe brugercentrerede løsninger, der skaber værdi for både brugere og virksomhed.",
   avatarUrl: "https://github.com/user-attachments/assets/3e386505-d55a-46f7-ac1a-fe8a42183225",
@@ -141,7 +141,7 @@ export const RESUME_DATA = {
       skills: ["Interaktionsdesign", "Product Discovery", "Co-Design", "Publikationer"],
       },
     {
-      company: "Yngre Læger",
+      company: "Lægeforeningen (Yngre Læger)",
       link: "https://laeger.dk/foreninger/yngre-laeger",
       badges: ["Fultid"],
       title: "UX/UI Designer",
@@ -160,7 +160,7 @@ export const RESUME_DATA = {
       logo: NSNLogo,
       start: "may 2018",
       end: "nov 2018",
-      description: "Forfattede og medforfattede to artikler publiceret i den anerkendte CHI-konference, bidragende til førende forskning inden for brugercentreret design menneske-computer interaktion.",
+      description: "Forfattede og medforfattede to artikler publiceret i den anerkendte CHI-konference, bidragende til førende forskning inden for brugercentreret design og menneske-computer interaktion.",
       skills: ["Akademisk Forskning", "Dataanalyse og Evaluering", "Prototyping"],
     },
     {
