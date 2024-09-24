@@ -1,4 +1,4 @@
-import { Publikationer } from "@/apollo/type-defs";
+import { Publikationer, FrivilligtArbejde, Referencer } from "@/apollo/type-defs";
 import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 import { ConsultlyLogo, ParabolLogo, ClevertechLogo, JojoMobileLogo, NSNLogo } from "@/images/logos";
 import { XIcon } from "lucide-react";
@@ -9,9 +9,9 @@ export const RESUME_DATA = {
   location: "Copenhagen, Denmark",
   locationLink: "https://www.google.com/maps/place/Copenhagen",
   about:
-    "Detail-oriented UX developer with 5+ years of experience, currently in the public sector, focused on creating high-quality, user-driven solutions.",
+    "Creative and detail-oriented user-centered developer with 5+ years of UX/UI experience, committed to driving innovation in public sector digital solutions.",
   summary:
-    "As a UX Specialist, I excel in taking digital products from concept to launch through a deep understanding of user needs and behavior. I thrive in collaborative environments, working closely with cross-functional teams to deliver optimal results. My approach combines qualitative and quantitative methods to create user-centered solutions that add value for both users and businesses. A 'full-stack' UX professional with strong technical skills capable of handling all aspects of UX from planning and research to analysis and interaction design.",
+    "As a UX Specialist, I excel in taking digital products from concept to launch through comprehensive user analysis. I thrive in team settings, collaborating across disciplines to achieve exceptional results. My methodology synthesizes qualitative and quantitative approaches to create user-oriented solutions that generate value for both consumers and organizations. A 'full-stack' UX professional with strong technical skills capable of handling all aspects of UX from planning and research to analysis and interaction design.",
   avatarUrl: "https://github.com/user-attachments/assets/3e386505-d55a-46f7-ac1a-fe8a42183225",
   personalWebsiteUrl: "https://jonaskjeldmand.vercel.app/about",
   contact: {
@@ -88,8 +88,8 @@ export const RESUME_DATA = {
       start: "Dec 2022",
       end: null,
       description:
-        "Responsible for identifying user needs through ongoing stakeholder dialogue and translating them into effective digital solutions. Focused on improving user experience and contributing to process optimization and automation in complex public IT systems.",
-      skills: ["Stakeholder Management", "User-Centered Design", "Integrations", "Process Optimization"],
+        "Responsible for identifying user needs through stakeholder dialogue and translating them into effective digital solutions. As a developer, I design and implement user-centered systems that improve experiences, optimize processes, and drive automation within complex public IT infrastructures.",
+      skills: ["Stakeholder Management", "Information Architecture", "User-Centered Design", "Integrations", "Process Optimization"],
     },
     {
       company: "Odeno",
@@ -101,7 +101,7 @@ export const RESUME_DATA = {
       end: "Dec 2022",
       description:
         "Led agile development processes and conducted usability tests to optimize user experience. Weighed and prioritized product goals in collaboration with various stakeholders, and used data and user insights for continuous platform improvements.",
-      skills: ["Product Optimization", "Usability Testing", "Web Development"],
+      skills: ["Product Optimization", "Usability Testing",, "A/B Testing", "Web Development"],
     },
     {
       company: "Human-Centred Computing Research Section",
@@ -113,10 +113,10 @@ export const RESUME_DATA = {
       end: "Jun 2022",
       description:
         "Conducted user research and analyzed data to understand user needs and behaviors. Applied insights from research to inform design decisions and optimize interactive systems in academic interdisciplinary collaborations.",
-      skills: ["Interaction Design", "Product Discovery", "Co-Design", "Publications"],
+      skills: ["Interaction Design", "Product Discovery", "Co-Design", "Publications", "Qualitative Methods"],
     },
     {
-      company: "Danish Medical Association (Younger Doctors)",
+      company: "Lægeforeningen (Yngre Læger)",
       link: "https://laeger.dk/foreninger/yngre-laeger",
       badges: ["Full-time"],
       title: "UX/UI Designer",
@@ -125,7 +125,7 @@ export const RESUME_DATA = {
       end: "Nov 2020",
       description:
         "Designed and optimized user experiences by analyzing feedback and conducting usability tests. Collaborated with various professional groups to implement user-centered solutions and improve digital products.",
-      skills: ["Cross-functional Collaboration", "Product Development", "Design Systems"],
+      skills: ["Cross-functional Collaboration", "Product Development", "Design Systems", "Web Development"],
     },
     {
       company: "Human-Centred Computing Research Section",
@@ -159,12 +159,9 @@ export const RESUME_DATA = {
     "User Feedback",
     "Empathy",
     "Agile Methodology",
-    "Qualitative and Quantitative Methods",
     "Data Analysis",
     "Product Development",
     "Design Tools",
-    "Cross-functional Collaboration",
-    "Communication",
     "Figma",
     "Sketch",
     "Adobe Suite",
