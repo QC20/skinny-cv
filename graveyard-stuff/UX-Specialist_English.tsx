@@ -80,7 +80,7 @@ export const RESUME_DATA = {
 
   work: [
     {
-      company: "Danish Tax Appeals Agency",
+      company: "Skatteankestyrelsen",
       link: "https://skatteankestyrelsen.dk/",
       badges: ["Full-time"],
       title: "User-Centered Digital Developer",
