@@ -176,6 +176,8 @@ export const RESUME_DATA = {
     },
   ],
 
+
+
   skills: [
     "Designtænkning",
     "Brugercentreret Design",

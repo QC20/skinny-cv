@@ -4,7 +4,8 @@ import { Badge } from "@/components/ui/badge";
 import { CommandMenu } from "@/components/command-menu";
 import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
-import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
+import { GlobeIcon, MailIcon, PhoneIcon, WebcamIcon } from "lucide-react";
+import { XIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
@@ -39,7 +40,7 @@ export default function Page() {
             <div className="hidden print:flex print:flex-col gap-y-2 font-mono text-sm text-muted-foreground">
               {RESUME_DATA.personalWebsiteUrl ? (
                 <div className="flex items-center gap-x-1">
-                  <GlobeIcon className="size-4" />
+                  <WebcamIcon className="size-4" />
                   <a
                     href={RESUME_DATA.personalWebsiteUrl}
                     target="_blank"
@@ -142,6 +143,7 @@ export default function Page() {
         </Section>
 
         <Section>
+<<<<<<< HEAD
           <h2 className="text-xl font-bold">Erhvervserfaring</h2>
 <<<<<<< HEAD
           {RESUME_DATA.work.map((work) => {
@@ -170,6 +172,9 @@ export default function Page() {
                       {work.start} - {work.end ?? "Nu"}
                     </div>
 =======
+=======
+          <h2 className="text-xl font-bold">Relevant erhvervserfaring</h2>
+>>>>>>> 94c98d9baec78496b9a8dff39dd4401b37a1409f
           {RESUME_DATA.work.map((work) => (
             <Card key={work.company}>
               <CardHeader>
@@ -191,8 +196,12 @@ export default function Page() {
                     </span>
                   </h3>
                   <div className="text-sm tabular-nums text-gray-500">
+<<<<<<< HEAD
                     {work.start} - {work.end ?? "Present"}
 >>>>>>> 048732ba4813a53b358f17044571b455d6dfbfc5
+=======
+                    {work.start} - {work.end ?? "Nu"}
+>>>>>>> 94c98d9baec78496b9a8dff39dd4401b37a1409f
                   </div>
                 </div>
                 <h4 className="font-mono text-sm leading-none print:text-[12px]">
@@ -201,6 +210,15 @@ export default function Page() {
               </CardHeader>
               <CardContent className="mt-2 text-xs print:text-[10px]">
                 {work.description}
+              </CardContent>
+              <CardContent className="mt-2">
+                <div className="flex flex-wrap gap-1">
+                  {work.skills.map((skill) => (
+                    <Badge key={skill} className="badge-print-override">
+                      {skill}
+                    </Badge>
+                  ))}
+                </div>
               </CardContent>
             </Card>
           ))}
@@ -226,10 +244,20 @@ export default function Page() {
               <CardContent className="mt-2 text-xs print:text-[9px]">
                 {education.description}
               </CardContent>
+              <CardContent className="mt-2">
+                <div className="flex flex-wrap gap-1">
+                  {education.skills.map((skill) => (
+                    <Badge key={skill} className="badge-print-override">
+                      {skill}
+                    </Badge>
+                  ))}
+                </div>
+              </CardContent>
             </Card>
           ))}
         </Section>
         
+      
         <Section>
           <h2 className="text-xl font-bold">Akademiske Publikationer</h2>
           {RESUME_DATA.Publikationer.map((Publikationer) => (
@@ -254,7 +282,7 @@ export default function Page() {
               <CardContent className="text-[10px] tabular-nums leading-tight print:text-[10px] print:leading-tight">
                 {Publikationer.author}
               </CardContent>
-              <CardContent className="mt-2 print:text-[12px] font-bold">
+              <CardContent className="mt-1 tabular-nums leading-tight print:text-[12px] print:leading-tight font-bold">
                 <a href={Publikationer.link} className="hover:underline">
 >>>>>>> 048732ba4813a53b358f17044571b455d6dfbfc5
                   {Publikationer.sig}
@@ -311,7 +339,7 @@ export default function Page() {
         links={[
           {
             url: RESUME_DATA.personalWebsiteUrl,
-            title: "Personal Website",
+            title: "Portfolio hjemmeside",
           },
           ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
             url: socialMediaLink.url,
