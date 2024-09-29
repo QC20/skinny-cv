@@ -9,9 +9,11 @@ export const RESUME_DATA = {
   location: "Copenhagen, Denmark",
   locationLink: "https://www.google.com/maps/place/Copenhagen",
   about:
-    "Creative and detail-oriented user-centered developer with 5+ years of UX/UI experience, committed to driving innovation in public sector digital solutions.",
+    "Detail-oriented full-stack UX developer with 5+ years of experience, using Design Thinking principles to drive user-focused innovation in public sector digital solutions.",
   summary:
-    "As a UX Specialist, I excel in taking digital products from concept to launch through comprehensive user analysis. I thrive in team settings, collaborating across disciplines to achieve exceptional results. My methodology synthesizes qualitative and quantitative approaches to create user-oriented solutions that generate value for both consumers and organizations. A 'full-stack' UX professional with strong technical skills capable of handling all aspects of UX from planning and research to analysis and interaction design.",
+    "As a UX Specialist, I excel in leading digital products from concept to launch through comprehensive user analysis and collaborative cross-functional teamwork. My methodology synthesizes qualitative insights and quantitative data to craft innovative user-centered solutions that deliver measurable impact. With expertise across the entire UX lifecycle, I actively engage in user research, ideation, prototyping, and interaction design, ensuring that user needs are effectively integrated with strategic business objectives.",
+    //"As a UX Specialist, I lead digital products from concept to deployment by integrating comprehensive user research with cross-functional collaboration. My approach combines qualitative insights and quantitative data to craft user-centered solutions that deliver measurable impact. With expertise across the full UX lifecycle, I manage everything from user empathy and research to ideation, prototyping, and refined interaction design, ensuring alignment between user needs, business objectives, and technical implementation.",
+    //"As a UX Specialist, I excel in taking digital products from concept to launch through comprehensive user analysis. I thrive in team settings, collaborating across disciplines to achieve exceptional results. My methodology synthesizes qualitative and quantitative approaches to create user-oriented solutions that generate value for both consumers and organizations. A full-stack UX professional with strong technical expertise, adept at managing the entire UX process—from empathizing with users and conducting research to ideating, prototyping, and delivering refined interaction designs.",
   avatarUrl: "https://github.com/user-attachments/assets/3e386505-d55a-46f7-ac1a-fe8a42183225",
   personalWebsiteUrl: "https://jonaskjeldmand.vercel.app/about",
   contact: {
@@ -101,7 +103,7 @@ export const RESUME_DATA = {
       end: "Dec 2022",
       description:
         "Led agile development processes and conducted usability tests to optimize user experience. Weighed and prioritized product goals in collaboration with various stakeholders, and used data and user insights for continuous platform improvements.",
-      skills: ["Product Optimization", "Usability Testing",, "A/B Testing", "Web Development"],
+      skills: ["Product Optimization", "Usability Testing",, "A/B Testing", "Web Development", "Agile UX"],
     },
     {
       company: "Human-Centred Computing Research Section",
@@ -136,7 +138,7 @@ export const RESUME_DATA = {
       start: "May 2018",
       end: "Nov 2018",
       description: "Authored and co-authored two papers published in the renowned CHI conference, contributing to leading research in user-centered design and human-computer interaction.",
-      skills: ["Academic Research", "Data Analysis and Evaluation", "Prototyping"],
+      skills: ["Academic Research", "Data Analysis and Evaluation", "Prototyping", "User Studies"],
     },
     {
       company: "DIS, Study Abroad in Scandinavia",
@@ -147,23 +149,25 @@ export const RESUME_DATA = {
       start: "Jan 2015",
       end: "Aug 2017",
       description: "Assisted with wireframes and prototypes, conducted design reviews, and produced videos for students.",
-      skills: ["Wireframing", "Prototyping", "Multimedia Production"],
+      skills: ["Wireframing", "Prototyping", "Multimedia Production", "Design Thinking"],
     },
   ],
 
   skills: [
     "Design Thinking",
+    "Agile UX",
     "User-Centered Design",
     "Prototyping",
     "Interaction Design",
     "User Feedback",
     "Empathy",
-    "Agile Methodology",
     "Data Analysis",
     "Product Development",
     "Design Tools",
     "Figma",
     "Sketch",
+    "Miro",
+    "ProtoPie",
     "Adobe Suite",
     "Web Development",
     "User Research",
