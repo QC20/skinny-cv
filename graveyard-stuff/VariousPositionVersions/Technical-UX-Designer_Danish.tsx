@@ -9,7 +9,7 @@ export const RESUME_DATA = {
   location: "København, Danmark",
   locationLink: "https://www.google.com/maps/place/Copenhagen",
   about:
-    "Detalie-orienteret UX developer med 5+ års erfaring, dedikeret til at skabe digitale brugeroplevelser af høj kvalitet",
+    "Detalie-orienteret UX designer med 5+ års erfaring, dedikeret til at skabe digitale brugeroplevelser af høj kvalitet",
   summary:
     "Som UX-specialist tager jeg digitale produkter fra koncept til lancering gennem brugeranalyse og tværfagligt samarbejde. Jeg kombinerer kvalitative og kvantitative data for at skabe brugercentrerede løsninger med målbar effekt. Med en stærk teknisk baggrund dækker jeg hele UX-livscyklussen, fra research og wireframing til prototyping og implementering. Jeg optimerer designsystemer og brugerrejser på tværs af platforme for at skabe skræddersyede oplevelser, der afbalancerer brugerens krav, forretningsmål og tekniske muligheder.",
   avatarUrl: "https://github.com/user-attachments/assets/3e386505-d55a-46f7-ac1a-fe8a42183225",
@@ -38,7 +38,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Cand.it. IT & Kognition",
-      degree: "Københavns Universitet",
+      degree: "Københavns Universitet - Datalogisk Institut",
       description: "Specialiseret i at kombinere avanceret teknologi med dybdegående indsigt i menneskelig kognition, udvikling af innovative teknologier der efterligner menneskelige kognitive processer inden for sprog, visuel genkendelse og kunstig intelligens.",
       start: "2020",
       end: "2022",
@@ -46,7 +46,7 @@ export const RESUME_DATA = {
     },
     {
       school: "BA. Kommunikation & IT",
-      degree: "Københavns Universitet",
+      degree: "Københavns Universitet, Humanistisk Fakultet",
       description: "Opnåede et solidt fundament i digital innovation og brugercentreret design, kombination af tekniske færdigheder med en dyb forståelse af, hvordan IT påvirker brugere og organisationer.",
       start: "2014",
       end: "2018",

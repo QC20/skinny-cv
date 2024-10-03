@@ -37,7 +37,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Cand.Scient. IT & Kognition",
-      degree: "Københavns Universitet",
+      degree: "Københavns Universitet, Datalogisk Institut",
       description: "Specialiseret i at kombinere avanceret teknologi med dyb indsigt i menneskelig kognition, med fokus på udvikling af innovative teknologier inden for brugergrænseflader og interaktionsdesign.",
       start: "2020",
       end: "2022",
@@ -45,7 +45,7 @@ export const RESUME_DATA = {
     },
     {
       school: "B.A. Kommunikation & IT",
-      degree: "Københavns Universitet",
+      degree: "Københavns Universitet, Humanistisk Fakultet",
       description: "Opnåede et solidt fundament inden for digital innovation og brugercentreret design, der kombinerer tekniske færdigheder med en dyb forståelse af, hvordan IT påvirker brugere og organisationer.",
       start: "2014",
       end: "2018",
@@ -55,27 +55,28 @@ export const RESUME_DATA = {
   
   Publikationer: [
     {
-      title: "Udforskelse af lydikoner til indholdsbaseret navigation i stemmestyrede brugergrænseflader",
+      title: "Exploring Audio Icons for Content-Based Navigation in Voice User Interfaces",
       author: "Jonas Kjeldmand Jensen & Daniel Ashbrook",
       start: "2023",
-      sig: "Klik for at se artiklen - publiseret i ACM CUI",
+      sig: "Click to view the article - published in ACM CUI",
       link: "https://doi.org/10.1145/3571884.3604302",
     },
     {
-      title: "Ind i Skandinavien: Når online faderskab afspejler samfundets infrastrukturer",
+      title: "Into Scandinavia: When Online Fatherhood Reflects Societal Infrastructures",
       author: "Jonas Kjeldmand Jensen, Tawfiq Ammari & Pernille Bjørn",
       start: "2019",
-      sig: "Klik for at se artiklen - publiseret i ACM GROUP",
+      sig: "Click to view the article - published in ACM GROUP",
       link: "https://doi.org/10.1145/3361112",
     },
     {
-      title: "Barrierer for slutbrugerdesignere af udvidet fabrikation",
+      title: "Barriers to End-User Designers of Augmented Fabrication",
       author: "Chandan Mahapatra, Jonas Kjeldmand Jensen, Michael McQuaid & Daniel Ashbrook",
       start: "2018",
-      sig: "Klik for at se artiklen - publiseret i ACM CHI",
+      sig: "Click to view the article - published in ACM CHI",
       link: "https://doi.org/10.1145/3290605.3300613",
     }
   ],
+
 
   work: [
     {

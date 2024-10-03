@@ -40,7 +40,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "MSc. IT & Cognition",
-      degree: "University of Copenhagen",
+      degree: "University of Copenhagen, Datalogisk Institut",
       description: "Specialized in combining advanced technology with deep insights into human cognition, developing innovative technologies that mimic human cognitive processes in language, visual recognition, and artificial intelligence.",
       start: "2020",
       end: "2022",
@@ -48,7 +48,7 @@ export const RESUME_DATA = {
     },
     {
       school: "B.A. Communication & IT",
-      degree: "University of Copenhagen",
+      degree: "University of Copenhagen, Faculty of Humanities",
       description: "Gained a solid foundation in digital innovation and user-centered design, combining technical skills with a deep understanding of how IT affects users and organizations.",
       start: "2014",
       end: "2018",
