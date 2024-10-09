@@ -27,12 +27,11 @@ import { link } from "fs";
 export const RESUME_DATA = {
   name: "Jonas Kjeldmand Jensen",
   initials: "Loading image ...",
-  location: "København, Danmark",
+  location: "Copenhagen, Denmark",
   locationLink: "https://www.google.com/maps/place/Copenhagen",
-  about:
-    "Detaljeorienteret UX researcher og produktudvikler med 5+ års erfaring, dedikeret til at skabe produkter af høj kvalitet",
+
   summary:
-    "Som UX Researcher er jeg specialiseret i at tage digitale produkter fra idé til lancering gennem en dyb forståelse af brugerbehov og adfærd. Jeg trives i samarbejdet og overlappet med andre faggrupper, hvor alle kan yde deres bedste. I mit arbejde fokuserer jeg på at kombinere kvalitative og kvantitative metoder for at skabe brugercentrerede løsninger, der skaber værdi for både brugere og virksomhed.",
+    "As a UX Researcher, I specialize in taking digital products from idea to launch through a deep understanding of user needs and behavior. I thrive in collaboration and overlap with other disciplines, where everyone can perform at their best. In my work, I focus on combining qualitative and quantitative methods to create user-centered solutions that create value for both users and businesses.",
   avatarUrl: "https://github.com/user-attachments/assets/3e386505-d55a-46f7-ac1a-fe8a42183225",
   personalWebsiteUrl: "https://jonaskjeldmand.vercel.app/about",
   contact: {
@@ -50,146 +49,142 @@ export const RESUME_DATA = {
         icon: LinkedInIcon,
       },
       {
-        name: "Min hjemmeside",
-        url: "https://https://jonaskjeldmand.vercel.app/",
+        name: "My website",
+        url: "https://jonaskjeldmand.vercel.app/",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Cand.Scient. IT & Kognition",
-      degree: "Københavns Universitet",
-      description: "Specialiseret i at kombinere avanceret teknologi med dyb indsigt i menneskelig kognition, med udvikling af innovative teknologier, der efterligner menneskets kognitive processer inden for sprog, visuel genkendelse og kunstig intelligens.",
+      school: "MSc. IT & Cognition",
+      degree: "University of Copenhagen",
+      description: "Specialized in combining advanced technology with deep insight into human cognition, developing innovative technologies that mimic human cognitive processes in language, visual recognition, and artificial intelligence.",
       start: "2020",
       end: "2022",
-      skills: ["Kognitiv Videnskab", "Kunstig Intelligens", "Sprogteknologi", "Interaktionsdesign"],
+      skills: ["Cognitive Science", "Artificial Intelligence", "Language Technology", "Interaction Design"],
     },
     {
-      school: "B.A. Kommunikation & IT",
-      degree: "Københavns Universitet",
-      description: "Opnåede et solidt fundament inden for digital innovation og brugercentreret design, der kombinerer tekniske færdigheder med en dyb forståelse af, hvordan IT påvirker brugere og organisationer.",
+      school: "BA. Communication & IT",
+      degree: "University of Copenhagen",
+      description: "Gained a solid foundation in digital innovation and user-centered design, combining technical skills with a deep understanding of how IT affects users and organizations.",
       start: "2014",
       end: "2018",
-      skills: ["Brugercentreret design", "Konceptudvikling", "Emperiske metoder"],
+      skills: ["User-Centered Design", "Concept Development", "Empirical Methods"],
     },
   ],
   
-  Publikationer: [
+  Publications: [
     {
       title: "Exploring Audio Icons for Content-Based Navigation in Voice User Interfaces",
       author: "Jonas Kjeldmand Jensen & Daniel Ashbrook",
       start: "2023",
-      sig: "Klik for at se artiklen - publiseret i ACM CUI",
+      sig: "Click to view the article - published in ACM CUI",
       link: "https://doi.org/10.1145/3571884.3604302",
-
     },
     {
       title: "Into Scandinavia: When Online Fatherhood Reflects Societal Infrastructures",
       author: "Jonas Kjeldmand Jensen, Tawfiq Ammari & Pernille Bjørn",
       start: "2019",
-      sig: "Klik for at se artiklen - publiseret i ACM GROUP",
+      sig: "Click to view the article - published in ACM GROUP",
       link: "https://doi.org/10.1145/3361112",
-
     },
     {
       title: "Barriers to End-User Designers of Augmented Fabrication",
       author: "Chandan Mahapatra, Jonas Kjeldmand Jensen, Michael McQuaid & Daniel Ashbrook",
       start: "2018",
-      sig: "Klik for at se artiklen - publiseret i ACM CHI",
+      sig: "Click to view the article - published in ACM CHI",
       link: "https://doi.org/10.1145/3290605.3300613",
-
     }
   ],
 
-
   work: [
     {
-      company: "Skatteankestyrelsen",
+      company: "Danish Tax Appeals Agency",
       link: "https://skatteankestyrelsen.dk/",
-      badges: ["Fultid"],
-      title: "Brugercentreret Digital Udvikler",
+      badges: ["Full-time"],
+      title: "User-Centered Digital Developer",
       logo: ConsultlyLogo,
-      start: "dec 2022",
+      start: "Dec 2022",
       end: null,
       description:
-        "Jeg er ansvarlig for at identificere brugernes behov gennem løbende dialog med interessenter og omsætte dem til effektive digitale løsninger. Med fokus på at forbedre brugeroplevelsen bidrager jeg til at optimere og automatisere processer.",
-      skills: ["Stakeholder Management", "Brugercentreret design", "Integrationer", "Procesoptimering"],
-      },
+        "I am responsible for identifying user needs through ongoing dialogue with stakeholders and translating them into effective digital solutions. With a focus on improving the user experience, I contribute to optimizing and automating processes.",
+      skills: ["Stakeholder Management", "User-Centered Design", "Integrations", "Process Optimization"],
+    },
     {
       company: "Odeno",
       link: "https://www.linkedin.com/company/odeno/",
-      badges: ["Fultid"],
-      title: "UX Researcher & Frontend Udvikler",
+      badges: ["Full-time"],
+      title: "UX Researcher & Frontend Developer",
       logo: ParabolLogo,
-      start: "jun 2022",
-      end: "dec 2022",
+      start: "Jun 2022",
+      end: "Dec 2022",
       description:
-        "Ledte agile udviklingsprocesser og gennemførte usability tests for at optimere brugeroplevelsen. Vægtede og prioriterede produktmål i samarbejde med forskellige stakeholders, og anvendte data og brugerindsigt til løbende forbedringer af platformen.",
-      skills: ["Produktoptimering", "Usability testing", "Web Development"],
-      },
+        "Led agile development processes and conducted usability tests to optimize the user experience. Weighted and prioritized product goals in collaboration with various stakeholders, and used data and user insights for continuous improvements of the platform.",
+      skills: ["Product Optimization", "Usability Testing", "Web Development"],
+    },
     {
       company: "Human-Centred Computing Research Section",
       link: "https://di.ku.dk/english/research/human-centred-computing/",
-      badges: ["Deltid"],
-      title: "HCI MA Forskningsassistent",
+      badges: ["Part-time"],
+      title: "HCI MA Research Assistant",
       logo: ClevertechLogo,
-      start: "dec 2020",
-      end: "jun 2022",
+      start: "Dec 2020",
+      end: "Jun 2022",
       description:
-        "Gennemførte brugerundersøgelser og analyserede data for at forstå brugerbehov og adfærd. Anvendte indsigt fra research til at informere designbeslutninger og optimere interaktive systemer i akademisk interdisciplinære samarbejder.",
-      skills: ["Interaktionsdesign", "Product Discovery", "Co-Design", "Publikationer"],
-      },
+        "Conducted user studies and analyzed data to understand user needs and behavior. Applied insights from research to inform design decisions and optimize interactive systems in academic interdisciplinary collaborations.",
+      skills: ["Interaction Design", "Product Discovery", "Co-Design", "Publications"],
+    },
     {
-      company: "Lægeforeningen (Yngre Læger)",
+      company: "Danish Medical Association (Junior Doctors)",
       link: "https://laeger.dk/foreninger/yngre-laeger",
-      badges: ["Fultid"],
+      badges: ["Full-time"],
       title: "UX/UI Designer",
       logo: JojoMobileLogo,
-      start: "nov 2018",
-      end: "nov 2020",
+      start: "Nov 2018",
+      end: "Nov 2020",
       description:
-        "Designede og optimerede brugeroplevelser ved at analysere feedback og gennemføre usability-tests, samarbejdede med forskellige faggrupper for at implementere brugercentrerede løsninger og forbedre digitale produkter.",
-      skills: ["Tværfagligt samarbejde", "Produktudvikling", "Designsystemer"],
-      },
+        "Designed and optimized user experiences by analyzing feedback and conducting usability tests, collaborated with various professional groups to implement user-centered solutions and improve digital products.",
+      skills: ["Cross-functional Collaboration", "Product Development", "Design Systems"],
+    },
     {
       company: "Human-Centred Computing Research Section",
       link: "https://di.ku.dk/english/research/human-centred-computing/",
-      badges: ["Fultid"],
-      title: "HCI BA Forskningsassistent",
+      badges: ["Full-time"],
+      title: "HCI BA Research Assistant",
       logo: NSNLogo,
-      start: "may 2018",
-      end: "nov 2018",
-      description: "Forfattede og medforfattede to artikler publiceret i den anerkendte CHI-konference, bidragende til førende forskning inden for brugercentreret design og menneske-computer interaktion.",
-      skills: ["Akademisk Forskning", "Dataanalyse og Evaluering", "Prototyping"],
+      start: "May 2018",
+      end: "Nov 2018",
+      description: "Authored and co-authored two articles published in the renowned CHI conference, contributing to leading research in user-centered design and human-computer interaction.",
+      skills: ["Academic Research", "Data Analysis and Evaluation", "Prototyping"],
     },
     {
       company: "DIS, Study Abroad in Scandinavia",
       link: "https://dis.dk/",
-      badges: ["Deltid"],
-      title: "Student Video \& Graphic Designer",
+      badges: ["Part-time"],
+      title: "Student Video & Graphic Designer",
       logo: NSNLogo,
-      start: "jan 2015",
-      end: "aug 2017",
-      description: "Assisterede med wireframes og prototyper, gennemførte designanmeldelser, og filmede videoer til studerende.",
-      skills: ["Wireframing", "Prototyping", "Multimedieproduktion"],
+      start: "Jan 2015",
+      end: "Aug 2017",
+      description: "Assisted with wireframes and prototypes, conducted design reviews, and filmed videos for students.",
+      skills: ["Wireframing", "Prototyping", "Multimedia Production"],
     },
   ],
 
   skills: [
-    "Designtænkning",
-    "Brugercentreret Design",
+    "Design Thinking",
+    "User-Centered Design",
     "Prototyping",
-    "Interaktionsdesign",
-    "Brugerfeedback",
-    "Empati",
-    "Agil og iterativ Metodik",
-    "Kvalitative og kvantitative metoder",
-    "Dataanslyse",
-    "Produktudvikling",
-    "Designværktøjer",
-    "Tværfagligt Samarbejde",
-    "Kommunikation",
+    "Interaction Design",
+    "User Feedback",
+    "Empathy",
+    "Agile and Iterative Methodology",
+    "Qualitative and Quantitative Methods",
+    "Data Analysis",
+    "Product Development",
+    "Design Tools",
+    "Cross-functional Collaboration",
+    "Communication",
     "Figma",
     "Sketch",
     "Adobe Suite",
@@ -197,45 +192,40 @@ export const RESUME_DATA = {
     "User Research",
     "Co-Design",
     "Usability Testing",
-    "Brugerrejser",
+    "User Journeys",
     "Product Discovery",
   ],
 
-
-  Referencer: [
+  References: [
     {
       name: "Pernille Bjørn Rasmussen",
-      company: "Professor og viceinstitutleder for forskning, Københavns Universitet",
-      kontakt: "Kontaktoplysninger udleveres efter anmodning"
-
+      company: "Professor and Deputy Head of Research, University of Copenhagen",
+      contact: "Contact information provided upon request"
     },
     {
       name: "Bertin Guldborg Hansen",
       company: "Co-Founder & CTO, Odeno A/S",
-      kontakt: "Kontaktoplysninger udleveres efter anmodning"
-
+      contact: "Contact information provided upon request"
     },
   ],
 
-  FrivilligtArbejde: [
+  VolunteerWork: [
     {
-      name: "Aktivt medlem af Hacker-fællesskabet Labitat",
-      company: "Deltager i udvikling af tech projekter og innovation, samt bidrager til workshops og teknologiske events i fællesskabet.",
-      start: "Nu",
+      name: "Active member of the Hacker community Labitat",
+      company: "Participates in the development of tech projects and innovation, as well as contributes to workshops and technological events in the community.",
+      start: "Present",
     },
     {
-      name: "Frivillig Coding Pirates underviser",
-      company: "Hjalp ungerne med at lære at programmere med sensorer, Arduino og C++.  ",
+      name: "Volunteer Coding Pirates instructor",
+      company: "Helped children learn to program with sensors, Arduino, and C++.",
       start: "2022",
     },
     {
-      name: "Eventorganisator & Vært hos Byens Radio (lokal pirat FM-radiostation)",
-      company: "Organiserede events og DJ'ede ved radioprogrammer med over 5000 lokale FM-lyttere.",
+      name: "Event Organizer & Host at City Radio (local pirate FM radio station)",
+      company: "Organized events and DJed radio programs with over 5,000 local FM listeners.",
       start: "2017",
     },
   ],
-
-
 
   projects: [
     {
