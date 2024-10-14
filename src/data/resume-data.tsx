@@ -18,7 +18,7 @@ import {
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
-import { Publikationer, Referencer } from "@/apollo/type-defs";
+import { FrivilligtArbejde, Publikationer, Referencer } from "@/apollo/type-defs";
 import { School } from "lucide-react";
 import { title } from "process";
 import { Description } from "@radix-ui/react-dialog";
@@ -29,9 +29,8 @@ export const RESUME_DATA = {
   initials: "Loading image ...",
   location: "Copenhagen, Denmark",
   locationLink: "https://www.google.com/maps/place/Copenhagen",
-
   summary:
-    "As a UX Researcher, I specialize in taking digital products from idea to launch through a deep understanding of user needs and behavior. I thrive in collaboration and overlap with other disciplines, where everyone can perform at their best. In my work, I focus on combining qualitative and quantitative methods to create user-centered solutions that create value for both users and businesses.",
+    "Seasoned and technically skilled UX professional with over 5 years of experience, ready to elevate EY’s digital transformation through user-centered design and data-driven insights. Proficient in conducting research to inform strategic product decisions that drive measurable improvements in user satisfaction and business outcomes. Skilled at collaborating with cross-functional teams to align complex financial solutions with user needs and mental models. Expertise in leveraging qualitative and quantitative methods to deliver insights that shape innovative digital experiences in the professional services sector.",
   avatarUrl: "https://github.com/user-attachments/assets/3e386505-d55a-46f7-ac1a-fe8a42183225",
   personalWebsiteUrl: "https://jonaskjeldmand.vercel.app/about",
   contact: {
@@ -49,8 +48,8 @@ export const RESUME_DATA = {
         icon: LinkedInIcon,
       },
       {
-        name: "My website",
-        url: "https://jonaskjeldmand.vercel.app/",
+        name: "Min hjemmeside",
+        url: "https://https://jonaskjeldmand.vercel.app/",
         icon: XIcon,
       },
     ],
@@ -74,26 +73,23 @@ export const RESUME_DATA = {
     },
   ],
   
-  Publications: [
+  Publikationer: [
     {
       title: "Exploring Audio Icons for Content-Based Navigation in Voice User Interfaces",
       author: "Jonas Kjeldmand Jensen & Daniel Ashbrook",
       start: "2023",
-      sig: "Click to view the article - published in ACM CUI",
       link: "https://doi.org/10.1145/3571884.3604302",
     },
     {
       title: "Into Scandinavia: When Online Fatherhood Reflects Societal Infrastructures",
       author: "Jonas Kjeldmand Jensen, Tawfiq Ammari & Pernille Bjørn",
       start: "2019",
-      sig: "Click to view the article - published in ACM GROUP",
       link: "https://doi.org/10.1145/3361112",
     },
     {
       title: "Barriers to End-User Designers of Augmented Fabrication",
       author: "Chandan Mahapatra, Jonas Kjeldmand Jensen, Michael McQuaid & Daniel Ashbrook",
       start: "2018",
-      sig: "Click to view the article - published in ACM CHI",
       link: "https://doi.org/10.1145/3290605.3300613",
     }
   ],
@@ -172,44 +168,40 @@ export const RESUME_DATA = {
   ],
 
   skills: [
-    "Design Thinking",
     "User-Centered Design",
+    "Qualitative and Quantitative Research Methods",
+    "Data Analysis",
+    "Usability Testing",
+    "User Journey Mapping",
     "Prototyping",
     "Interaction Design",
-    "User Feedback",
-    "Empathy",
-    "Agile and Iterative Methodology",
-    "Qualitative and Quantitative Methods",
-    "Data Analysis",
-    "Product Development",
-    "Design Tools",
-    "Cross-functional Collaboration",
-    "Communication",
+    "Agile Methodology",
+    "Stakeholder Management",
+    "UX Strategy",
+    "Information Architecture",
+    "A/B Testing",
+    "Survey Design",
+    "Persona Development",
     "Figma",
-    "Sketch",
     "Adobe Suite",
-    "Web Development",
-    "User Research",
-    "Co-Design",
-    "Usability Testing",
-    "User Journeys",
-    "Product Discovery",
+    "Cross-functional Collaboration",
+    "Workshop Facilitation",
   ],
 
-  References: [
+  Referencer: [
     {
       name: "Pernille Bjørn Rasmussen",
       company: "Professor and Deputy Head of Research, University of Copenhagen",
-      contact: "Contact information provided upon request"
+      kontakt: "Contact information provided upon request"
     },
     {
       name: "Bertin Guldborg Hansen",
       company: "Co-Founder & CTO, Odeno A/S",
-      contact: "Contact information provided upon request"
+      kontakt: "Contact information provided upon request"
     },
   ],
 
-  VolunteerWork: [
+  FrivilligtArbejde: [
     {
       name: "Active member of the Hacker community Labitat",
       company: "Participates in the development of tech projects and innovation, as well as contributes to workshops and technological events in the community.",

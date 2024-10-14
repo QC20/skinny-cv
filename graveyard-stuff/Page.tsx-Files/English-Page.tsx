@@ -11,7 +11,7 @@ import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
 
 export const metadata: Metadata = {
-  title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
+  title: `${RESUME_DATA.name}`,
   description: RESUME_DATA.summary,
 };
 
@@ -22,9 +22,6 @@ export default function Page() {
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
-            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
-              {RESUME_DATA.about}
-            </p>
             <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
               <a
                 className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
@@ -36,7 +33,7 @@ export default function Page() {
               </a>
             </p>
             {/* Website, Email, and Phone icons only visible in print */}
-            <div className="hidden print:flex print:flex-col gap-y-2 font-mono text-sm text-muted-foreground">
+            <div className="hidden gap-y-2 font-mono text-sm text-muted-foreground print:flex print:flex-col">
               {RESUME_DATA.contact.tel ? (
                 <div className="flex items-center gap-x-1">
                   <PhoneIcon className="size-4" />
@@ -120,7 +117,7 @@ export default function Page() {
           </Avatar>
         </div>
         <Section>
-          <h2 className="text-xl font-bold">About Me</h2>
+          <h2 className="text-xl font-bold">Driving UX Innovation at EY</h2>
           <p className="text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
             {RESUME_DATA.summary}
           </p>
@@ -130,10 +127,7 @@ export default function Page() {
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.skills.map((skill) => (
-              <Badge
-                className="badge-print-override"
-                key={skill}
-              >
+              <Badge className="badge-print-override" key={skill}>
                 {skill}
               </Badge>
             ))}
@@ -154,7 +148,7 @@ export default function Page() {
                       {work.badges.map((badge) => (
                         <Badge
                           variant="secondary"
-                          className="align-middle text-xs print:text-[8px] print:leading-tight print:px-1 print:py-0.5"
+                          className="align-middle text-xs print:px-1 print:py-0.5 print:text-[8px] print:leading-tight"
                           key={badge}
                         >
                           {badge}
@@ -218,36 +212,32 @@ export default function Page() {
             </Card>
           ))}
         </Section>
-        
-      
+
         <Section>
-          <h2 className="text-xl font-bold">Academic Publications</h2>
-          {RESUME_DATA.Publikationer.map((Publikationer) => (
-            <Card key={Publikationer.title}>
+          <h2 className="text-xl font-bold mt-3">Academic Publications</h2>
+          {RESUME_DATA.Publikationer.map((publikation) => (
+            <Card key={publikation.title}>
               <CardHeader>
                 <div className="flex items-center justify-between gap-x-2 text-base">
                   <h3 className="font-semibold leading-none">
-                    {Publikationer.title}
+                    <a href={publikation.link} className="hover:underline">
+                      {publikation.title}
+                    </a>
                   </h3>
                   <div className="text-sm tabular-nums text-gray-500">
-                    {Publikationer.start}
+                    {publikation.start}
                   </div>
                 </div>
               </CardHeader>
               <CardContent className="text-[10px] tabular-nums leading-tight print:text-[10px] print:leading-tight">
-                {Publikationer.author}
-              </CardContent>
-              <CardContent className="mt-1 tabular-nums leading-tight print:text-[12px] print:leading-tight font-bold">
-                <a href={Publikationer.link} className="hover:underline">
-                  {Publikationer.sig}
-                </a>
+                {publikation.author}
               </CardContent>
             </Card>
           ))}
         </Section>
-
+        
         <Section>
-          <h2 className="text-xl font-bold">Volunteer Work and Conferences</h2>
+          <h2 className="text-xl font-bold mt-3">Volunteer Work and Conferences</h2>
           {RESUME_DATA.FrivilligtArbejde.map((FrivilligtArbejde) => (
             <Card key={FrivilligtArbejde.name}>
               <CardHeader>
@@ -268,7 +258,7 @@ export default function Page() {
         </Section>
 
         <Section>
-          <h2 className="text-xl font-bold">Professional References</h2>
+          <h2 className="text-xl font-bold mt-3">Professional References</h2>
           {RESUME_DATA.Referencer.map((Referencer) => (
             <Card key={Referencer.name}>
               <CardHeader>
@@ -281,7 +271,7 @@ export default function Page() {
               <CardContent className="text-[10px] tabular-nums leading-tight print:text-[10px] print:leading-tight">
                 {Referencer.company}
               </CardContent>
-              <CardContent className="font-bold text-[10px] tabular-nums leading-tight print:text-[10px] print:leading-tight">
+              <CardContent className="text-[10px] font-bold tabular-nums leading-tight print:text-[10px] print:leading-tight">
                 {Referencer.kontakt}
               </CardContent>
             </Card>
