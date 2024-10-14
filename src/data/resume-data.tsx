@@ -29,6 +29,8 @@ export const RESUME_DATA = {
   initials: "Loading image ...",
   location: "Copenhagen, Denmark",
   locationLink: "https://www.google.com/maps/place/Copenhagen",
+  about:
+  "A dedicated UX professional who blends user insights with innovative design to create impactful digital experiences",
   summary:
     "Seasoned and technically skilled UX professional with over 5 years of experience, ready to elevate EY’s digital transformation through user-centered design and data-driven insights. Proficient in conducting research to inform strategic product decisions that drive measurable improvements in user satisfaction and business outcomes. Skilled at collaborating with cross-functional teams to align complex financial solutions with user needs and mental models. Expertise in leveraging qualitative and quantitative methods to deliver insights that shape innovative digital experiences in the professional services sector.",
   avatarUrl: "https://github.com/user-attachments/assets/3e386505-d55a-46f7-ac1a-fe8a42183225",
